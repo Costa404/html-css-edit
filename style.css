@@ -1,0 +1,68 @@
+.cardOne,
+.cardTwo,
+.cardThree,
+.cardFour {
+  border-radius: 23px;
+  border: 2px solid rgb(232, 230, 234);
+  width: 400px;
+  margin: 5px;
+  min-width: 200px;
+}
+.cardTop {
+  padding: 20px 20px 0 20px;
+  border-radius: 23px;
+}
+
+.cardMid {
+  margin-top: 20px;
+  padding: 0 0 0 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+#colorMid {
+  color: grey;
+}
+.cardMid > p {
+  margin: 5px 0 0 0;
+}
+
+#numberMid {
+  font-size: 25px;
+}
+.cardButton {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
+  background-color: rgb(245, 245, 245);
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+}
+
+.cardButton > p {
+  color: grey;
+}
+
+body {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+#imgSetaVerde {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+#imgone {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+#imgSetaRed {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
