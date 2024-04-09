@@ -1,68 +1,70 @@
-.cardOne,
-.cardTwo,
-.cardThree,
-.cardFour {
-  border-radius: 23px;
-  border: 2px solid rgb(232, 230, 234);
-  width: 400px;
-  margin: 5px;
-  min-width: 200px;
-}
-.cardTop {
-  padding: 20px 20px 0 20px;
-  border-radius: 23px;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-.cardMid {
-  margin-top: 20px;
-  padding: 0 0 0 20px;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-
-#colorMid {
-  color: grey;
-}
-.cardMid > p {
-  margin: 5px 0 0 0;
-}
-
-#numberMid {
-  font-size: 25px;
-}
-.cardButton {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 20px 0 20px;
-  background-color: rgb(245, 245, 245);
-  border-bottom-left-radius: 23px;
-  border-bottom-right-radius: 23px;
-}
-
-.cardButton > p {
-  color: grey;
-}
-
+html,
 body {
+  margin: 0;
+  padding: 0;
+  background: #ee8d8d;
+  font-family: "Inter", sans-serif;
   display: flex;
-
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-#imgSetaVerde {
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
+.calendar__container {
+  background: white;
+  display: inline-block;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
-#imgone {
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
+.calendar__container__header {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 12px 0;
 }
 
-#imgSetaRed {
-  width: 16px;
-  height: 16px;
-  margin-right: 5px;
+table {
+  border-collapse: collapse;
+  border-radius: 4px;
+}
+
+th {
+  opacity: 0.5;
+}
+
+th,
+td {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td:hover {
+  background: #e9e7e7;
+  cursor: pointer;
+}
+
+.active {
+  background: blue;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn {
+  background: blue;
+  color: rgb(190, 178, 254);
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
 }
