@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.head {
+  background-color: gainsboro;
+  padding-left: 10px;
+  height: 40px;
+}
+
+.dp {
+  width: 25%;
+}
+.border {
+  border: 1px solid gainsboro;
+  height: 30px;
+  padding-left: 10px;
+}
