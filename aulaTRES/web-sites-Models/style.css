@@ -1,0 +1,129 @@
+:root {
+  --backgroundColor: rgb(237, 233, 233);
+  --corLetra: grey;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: var(--backgroundColor);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 78px;
+}
+
+.iconHeader {
+  width: 36px;
+  height: 36px;
+  margin-right: 5px;
+}
+
+.headerDiv {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  font-size: 2rem;
+}
+
+.headerA {
+  font-size: 2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+  color: var(--corLetra);
+  background-color: var(--backgroundColor);
+}
+
+.headerP {
+  margin-bottom: 7px;
+  color: var(--corLetra);
+}
+
+a {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.navDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  height: 90px;
+  font-size: 2rem;
+}
+nav,
+i {
+  background-color: white;
+  margin: 0 250px;
+}
+nav {
+  color: rgb(201, 197, 197);
+}
+
+.titleH {
+  color: rgba(185, 26, 154, 0.621);
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+
+  margin: 50px 10%;
+}
+
+.slide {
+  background-color: white;
+
+  margin: 0 auto;
+  padding-top: 5%;
+  margin-top: 20px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.imgSlide {
+  max-width: 90%;
+  display: flex;
+  margin-left: 5%;
+}
+
+.slideH {
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 25px;
+  font-size: 2rem;
+}
+.slideP {
+  background-color: white;
+  margin-left: 5%;
+  font-size: 1.7rem;
+  margin-top: 25px;
+  margin-right: 5%;
+}
+
+.classA {
+  text-decoration: none;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  color: rgba(185, 26, 154, 0.621);
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.a {
+  display: flex;
+}
+
+.h-index-two {
+  background-color: aqua;
+  color: blue;
+}
