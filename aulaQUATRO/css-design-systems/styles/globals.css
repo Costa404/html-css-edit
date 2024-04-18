@@ -1,0 +1,45 @@
+:root {
+  --black: #181818;
+  --neutral: #fafafa;
+  --neutral-gray: #a3a3a3;
+  --primary: #0070d2;
+  --primary-10: #005fb2;
+  --red: #c23934;
+  --red-10: #a61a14;
+  --green: #4bca81;
+  --green-10: #04844b;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background: #fafafa;
+}
+
+.wrapper__content {
+  background: white;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  padding: 32px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 32px 0;
+  gap: 24px;
+}
+
+.sm {
+  width: 20px;
+}
+.md {
+  width: 40px;
+}
+.lg {
+  width: 60px;
+}

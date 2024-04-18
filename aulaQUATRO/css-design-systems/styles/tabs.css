@@ -1,0 +1,32 @@
+.tabsInterior {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  height: 40px;
+ 
+  border: 1px solid gainsboro;
+  margin-top: 30px;
+  position: relative;
+}
+
+.tabs {
+  margin-top: 30px;
+
+}
+
+.tabsSpan {
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.traço {
+  height: 3px;
+  width: 60px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+}

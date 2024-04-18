@@ -1,0 +1,125 @@
+:root {
+  --black: #181818;
+  --neutral: #fafafa;
+  --neutral-gray: #e7e6e6;
+  --primary: #0070d2;
+  --primary-10: #005fb2;
+  --red: #c23934;
+  --red-10: #a61a14;
+  --green: #4bca81;
+  --green-10: #04844b;
+}
+
+/* ==============================
+
+
+Default
+
+
+=============================== */
+
+
+
+.firstThreeButtons,
+.secondThreeButtons,
+.thirdThreeButtons,
+.fourthThreeButtons {
+  background-color: var(--primary);
+  border: 1px var(--primary);
+  color: var(--neutral);
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 8px 20px;
+  margin: 10px;
+}
+
+.secondThreeButtons {
+  background-color: var(--neutral);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.thirdThreeButtons {
+  background-color: var(--red);
+  border: 1px solid var(--red-10);
+  color: var(--neutral);
+}
+.fourthThreeButtons {
+  background-color: var(--green);
+  border: 1px solid var(--green);
+  color: var(--black);
+}
+
+.buttonBorder {
+  border: 3px dotted var(--neutral-gray);
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.fas {
+  margin: 0 10px;
+}
+
+/* ==============================
+
+
+Hover
+
+
+=============================== */
+
+.buttonHover button:hover {
+  cursor: pointer;
+}
+.buttonHover {
+  margin-top: 30px;
+}
+
+.buttonHover > .firstThreeButtons {
+  background-color: var(--primary-10);
+}
+.buttonHover > .secondThreeButtons {
+  border: 2px solid;
+}
+.buttonHover > .thirdThreeButtons {
+  background-color: var(--red-10);
+}
+.buttonHover > .fourthThreeButtons {
+  background-color: var(--green-10);
+  color: var(--neutral);
+}
+
+/* ==============================
+
+
+Press
+
+
+=============================== */
+
+/* ==============================
+
+
+Disable
+
+=============================== */
+
+.buttonDisabled {
+  margin-top: 30px;
+}
+.buttonDisabled > .firstThreeButtons {
+  background-color: var(--neutral-gray);
+}
+.buttonDisabled > .secondThreeButtons {
+  border: var(--neutral-gray) 2px solid;
+  color: var(--neutral-gray);
+}
+.buttonDisabled > .thirdThreeButtons {
+  background-color: var(--neutral-gray);
+  border: var(--neutral-gray);
+}
+.buttonDisabled > .fourthThreeButtons {
+  background-color: var(--neutral-gray);
+  color: var(--neutral);
+  border: var(--neutral-gray) 2px solid;
+}

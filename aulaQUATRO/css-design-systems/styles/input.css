@@ -1,0 +1,144 @@
+/* ==============================
+
+geral inputs
+
+
+=============================== */
+
+:root {
+  --black: #181818;
+  --neutral: #fafafa;
+  --neutral-gray: #a3a3a3;
+  --primary: #0070d2;
+  --primary-10: #005fb2;
+  --red: #c23934;
+  --red-10: #a61a14;
+  --green: #4bca81;
+  --green-10: #04844b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.dadosClients {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.dados {
+  margin-top: 17px;
+  margin-bottom: 20px;
+  width: 200px;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.wrapper__content__inputs,
+.secondInputs,
+.thirdInputs,
+.fourthInputs {
+  margin-top: 0;
+  background-color: gainsboro;
+  display: flex;
+}
+
+input {
+  border: 1px solid gainsboro;
+  border-radius: 3px;
+}
+
+.lupaLeft {
+  position: relative;
+}
+
+.lupaLeft > input {
+  padding-left: 30px;
+}
+
+.placeholderLeft {
+  position: absolute;
+  bottom: 28px;
+  color: var(--neutral-gray);
+}
+
+.lupaRight {
+  position: relative;
+}
+
+.placeholderRight {
+  position: absolute;
+  right: 0px;
+  bottom: 29px;
+  color: var(--neutral-gray);
+}
+
+/* ==============================
+
+
+third inputs 
+
+
+=============================== */
+
+.borderLupa {
+  border: 2px solid #1589ee;
+  box-shadow: 0px 0px 4px 0.1px rgb(21, 137, 238);
+}
+/* ==============================
+
+
+third inputs 
+
+
+=============================== */
+.backgroundColorInput {
+  background-color: #ecebea;
+  border: 0;
+  box-shadow: 0 0 0 0 rgb(0, 0, 0, 0);
+}
+/* ==============================
+
+
+fourth inputs 
+
+
+=============================== */
+
+.fourthBorder {
+  border: 2.5px solid rgba(194, 57, 52, 255);
+}
+
+.errorLabelFourth {
+  position: relative;
+}
+.errorLabel {
+  position: absolute;
+  top: 71px;
+  font-size: 0.8rem;
+  color: rgba(194, 57, 52, 255);
+}
+.errorLabelTwo {
+  position: absolute;
+  top: 141px;
+  font-size: 0.8rem;
+  color: rgba(194, 57, 52, 255);
+}
+
+.errorLabelLupa {
+  position: absolute;
+  bottom: 4px;
+  font-size: 0.8rem;
+  color: rgba(194, 57, 52, 255);
+}
+.errorLabelLupaTwo {
+  position: absolute;
+  bottom: 4px;
+  font-size: 0.8rem;
+  color: rgba(194, 57, 52, 255);
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,444 @@
+<!-- 
+	Documentation: 
+	https://www.figma.com/file/udWyes5Zfj14qQDmD6oUzL/Edit---Design-Systems?type=design&node-id=2%3A783&mode=dev&t=RszSJCDWvtv4ecS1-1
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design System</title>
+    <link rel="stylesheet" href="styles/globals.css" />
+    <link rel="stylesheet" href="styles/buttons.css" />
+    <link rel="stylesheet" href="styles/input.css" />
+    <link rel="stylesheet" href="styles/tabs.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3 class="wrapper__title">Avatars</h3>
+      <div class="wrapper__content">
+        <div class="flex">
+          <img class="avatar lg" src="./assets/user.jpeg" />
+          <img class="avatar md" src="./assets/user.jpeg" />
+          <img class="avatar sm" src="./assets/user.jpeg" />
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <h3 class="wrapper__title">Buttons</h3>
+
+      <section class="buttonBorder">
+        <button class="firstThreeButtons">Label</button>
+        <button class="firstThreeButtons">
+          <i class="fas fa-bolt"></i>Label
+        </button>
+        <button class="firstThreeButtons">
+          Label <i class="fas fa-bolt"></i>
+        </button>
+        <button class="secondThreeButtons">Label</button>
+        <button class="secondThreeButtons">
+          <i class="fas fa-bolt"></i>Label
+        </button>
+        <button class="secondThreeButtons">
+          Label <i class="fas fa-bolt"></i>
+        </button>
+        <button class="thirdThreeButtons">Label</button>
+        <button class="thirdThreeButtons">
+          <i class="fas fa-bolt"></i>Label
+        </button>
+        <button class="thirdThreeButtons">
+          Label <i class="fas fa-bolt"></i>
+        </button>
+        <button class="fourthThreeButtons">Label</button>
+        <button class="fourthThreeButtons">
+          <i class="fas fa-bolt"></i>Label
+        </button>
+        <button class="fourthThreeButtons">
+          Label <i class="fas fa-bolt"></i>
+        </button>
+        <!-- 
+          ============================== 
+          
+          Hover
+          
+          ===============================
+          -->
+        <section class="buttonHover">
+          <button class="firstThreeButtons">Label</button>
+          <button class="firstThreeButtons">
+            <i class="fas fa-bolt"></i>Label
+          </button>
+          <button class="firstThreeButtons">
+            Label <i class="fas fa-bolt"></i>
+          </button>
+          <button class="secondThreeButtons">Label</button>
+          <button class="secondThreeButtons">
+            <i class="fas fa-bolt"></i>Label
+          </button>
+          <button class="secondThreeButtons">
+            Label <i class="fas fa-bolt"></i>
+          </button>
+          <button class="thirdThreeButtons">Label</button>
+          <button class="thirdThreeButtons">
+            <i class="fas fa-bolt"></i>Label
+          </button>
+          <button class="thirdThreeButtons">
+            Label <i class="fas fa-bolt"></i>
+          </button>
+          <button class="fourthThreeButtons">Label</button>
+          <button class="fourthThreeButtons">
+            <i class="fas fa-bolt"></i>Label
+          </button>
+          <button class="fourthThreeButtons">
+            Label <i class="fas fa-bolt"></i>
+          </button>
+        </section>
+
+        <!--  ==============================
+           
+          Disabled
+           
+           ===============================
+          -->
+        <section disabled class="buttonDisabled">
+          <button disabled class="firstThreeButtons">Label</button>
+          <button class="firstThreeButtons">
+            <i class="fas fa-bolt"></i>Label
+          </button>
+          <button class="firstThreeButtons">
+            Label <i class="fas fa-bolt"></i>
+          </button>
+          <button class="secondThreeButtons">Label</button>
+          <button class="secondThreeButtons">
+            <i class="fas fa-bolt"></i>Label
+          </button>
+          <button class="secondThreeButtons">
+            Label <i class="fas fa-bolt"></i>
+          </button>
+          <button class="thirdThreeButtons">Label</button>
+          <button class="thirdThreeButtons">
+            <i class="fas fa-bolt"></i>Label
+          </button>
+          <button class="thirdThreeButtons">
+            Label <i class="fas fa-bolt"></i>
+          </button>
+          <button class="fourthThreeButtons">Label</button>
+          <button class="fourthThreeButtons">
+            <i class="fas fa-bolt"></i>Label
+          </button>
+          <button class="fourthThreeButtons">
+            Label <i class="fas fa-bolt"></i>
+          </button>
+        </section>
+      </section>
+    </div>
+
+    <!--  ==============================
+           
+         First inputs
+           
+           ===============================
+          -->
+    <div class="wrapper">
+      <h3 class="wrapper__title">Inputs</h3>
+      <div class="wrapper__content__inputs">
+        <section class="dadosClients">
+          <span>Field Label</span>
+
+          <input placeholder="Placeholder" class="dados" type="text" />
+          <input placeholder="Placeholder" class="dados" type="text" />
+        </section>
+        <section class="dadosClients">
+          <span>Field Label</span>
+          <div class="lupaLeft">
+            <i class="fas placeholderLeft fa-search"></i>
+            <input type="text" placeholder="Placeholder" class="dados" />
+          </div>
+          <div class="lupaLeft">
+            <i class="fas placeholderLeft fa-search"></i>
+            <input type="text" placeholder="Placeholder" class="dados" />
+          </div>
+        </section>
+        <section class="dadosClients">
+          <span>Field Label</span>
+          <div class="lupaRight">
+            <input type="text" placeholder="Placeholder" class="dados" />
+            <i class="fas placeholderRight fa-search"></i>
+          </div>
+          <div class="lupaRight">
+            <input type="text" placeholder="Placeholder" class="dados" />
+            <i class="fas placeholderRight fa-search"></i>
+          </div>
+        </section>
+      </div>
+      <!--  ==============================
+           
+         second inputs
+           
+           ===============================
+          -->
+      <div class="secondInputs">
+        <section class="dadosClients">
+          <span>Field Label</span>
+
+          <input
+            placeholder="Placeholder"
+            class="borderLupa dados"
+            type="text"
+          />
+          <input
+            placeholder="Placeholder"
+            class="borderLupa dados"
+            type="text"
+          />
+        </section>
+        <section class="dadosClients">
+          <span>Field Label</span>
+          <div class="lupaLeft">
+            <i class="fas placeholderLeft fa-search"></i>
+            <input
+              type="text"
+              placeholder="Placeholder"
+              class="borderLupa dados"
+            />
+          </div>
+          <div class="lupaLeft">
+            <i class="fas placeholderLeft fa-search"></i>
+            <input
+              type="text"
+              placeholder="Placeholder"
+              class="borderLupa dados"
+            />
+          </div>
+        </section>
+        <section class="dadosClients">
+          <span>Field Label</span>
+          <div class="lupaRight">
+            <input
+              type="text"
+              placeholder="Placeholder"
+              class="borderLupa dados"
+            />
+            <i class="fas placeholderRight fa-search"></i>
+          </div>
+          <div class="lupaRight">
+            <input
+              type="text"
+              placeholder="Placeholder"
+              class="borderLupa dados"
+            />
+            <i class="fas placeholderRight fa-search"></i>
+          </div>
+        </section>
+      </div>
+      <!--  ==============================
+           
+         third inputs
+           
+           ===============================
+          -->
+      <div class="thirdInputs">
+        <section class="dadosClients">
+          <span>Field Label</span>
+
+          <input
+            placeholder="Placeholder"
+            class="borderLupa dados backgroundColorInput"
+            type="text"
+            disabled
+          />
+          <input
+            placeholder="Placeholder"
+            class="borderLupa dados backgroundColorInput"
+            type="text"
+            disabled
+          />
+        </section>
+        <section class="dadosClients">
+          <span>Field Label</span>
+          <div class="lupaLeft">
+            <i class="fas placeholderLeft fa-search"></i>
+            <input
+              type="text"
+              placeholder="Placeholder"
+              class="backgroundColorInput borderLupa dados"
+              disabled
+            />
+          </div>
+          <div class="lupaLeft">
+            <i class="fas placeholderLeft fa-search"></i>
+            <input
+              type="text"
+              placeholder="Placeholder"
+              class="backgroundColorInput borderLupa dados"
+              disabled
+            />
+          </div>
+        </section>
+        <section class="dadosClients">
+          <span>Field Label</span>
+          <div class="lupaRight">
+            <input
+              type="text"
+              placeholder="Placeholder"
+              class="backgroundColorInput borderLupa dados"
+              disabled
+            />
+            <i class="fas placeholderRight fa-search"></i>
+          </div>
+          <div class="lupaRight">
+            <input
+              type="text"
+              placeholder="Placeholder"
+              class="backgroundColorInput borderLupa dados"
+              disabled
+            />
+            <i class="fas placeholderRight fa-search"></i>
+          </div>
+        </section>
+      </div>
+      <!--  ==============================
+           
+         fourth inputs
+           
+           ===============================
+          -->
+      <div class="fourthInputs">
+        <section class="dadosClients errorLabelFourth">
+          <span>Field Label</span>
+
+          <input
+            placeholder="Placeholder"
+            class="fourthBorder dados"
+            type="text"
+          /><span class="errorLabel">Error Label</span>
+          <input
+            placeholder="Placeholder"
+            class="dados fourthBorder"
+            type="text"
+          /><span class="errorLabelTwo">Error Label</span>
+        </section>
+        <!--  ==============================
+           
+       lupas left
+           
+           ===============================
+          -->
+        <section class="dadosClients errorLabelFourth">
+          <span>Field Label</span>
+          <div class="lupaLeft">
+            <i class="fas placeholderLeft fa-search"></i>
+            <input
+              placeholder="Placeholder"
+              class="fourthBorder dados"
+              type="text"
+            />
+            <div class="errorLabelLupa">Error Label</div>
+          </div>
+          <div class="lupaLeft">
+            <i class="fas placeholderLeft fa-search"></i>
+            <input
+              placeholder="Placeholder"
+              class="dados fourthBorder"
+              type="text"
+            />
+            <div class="errorLabelLupaTwo">Error Label</div>
+          </div>
+        </section>
+
+        <!--  ==============================
+             
+         lupas right
+             
+             ===============================
+            -->
+        <section class="dadosClients errorLabelFourth">
+          <span>Field Label</span>
+          <div class="lupaRight">
+            <input
+              placeholder="Placeholder"
+              class="fourthBorder dados"
+              type="text"
+            />
+            <i class="fas placeholderRight fa-search"></i>
+            <div class="errorLabelLupa">Error Label</div>
+          </div>
+          <div class="lupaRight">
+            <input
+              placeholder="Placeholder"
+              class="dados fourthBorder"
+              type="text"
+            />
+            <i class="fas placeholderRight fa-search"></i>
+            <div class="errorLabelLupaTwo">Error Label</div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!--  ==============================
+             
+       TABS
+             
+             ===============================
+            -->
+    <h3 class="wrapper__title">Tabs</h3>
+    <section class="tabs"></section>
+
+    <div class="tabsInterior">
+      <div class="traço"></div>
+      <p>Label</p>
+      <span class="tabsSpan">Label</span>
+    </div>
+    <div class="tabsInterior">
+      <div class="traço"></div>
+      <p>Label</p>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+    </div>
+    <div class="tabsInterior">
+      <div class="traço"></div>
+      <p>Label</p>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+    </div>
+    <div class="tabsInterior">
+      <div class="traço"></div>
+      <p>Label</p>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+    </div>
+    <div class="tabsInterior">
+      <div class="traço"></div>
+      <p>Label</p>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+    </div>
+    <div class="tabsInterior">
+      <div class="traço"></div>
+      <p>Label</p>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+      <span class="tabsSpan">Label</span>
+    </div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</html>
