@@ -43,8 +43,16 @@ button {
   height: 2rem;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .informationSaved {
   max-width: 400px;
   display: flex;
   flex-wrap: wrap;
+}
+
+input {
+  outline: none;
 }

@@ -1,0 +1,3 @@
+// _index.scss
+@forward "./colours"; // Reenvia sem ciclos
+@forward "./mixins"; // Certifique-se de que mixins não cria ciclos

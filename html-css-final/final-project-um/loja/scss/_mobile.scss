@@ -1,0 +1,49 @@
+@use "../scss" as *;
+@include media-sm {
+  header {
+    li {
+      display: none;
+    }
+
+    .fa-bars {
+      display: initial;
+      font-size: 2rem;
+    }
+  }
+
+  .mobile-sub-header {
+    display: block;
+    width: 200%;
+    height: 1000px;
+    background-image: url(/html-css-final/final-project-um/loja/assets/header.png);
+    background-size: cover;
+    background-position: 90% 0%;
+    position: relative;
+
+    p {
+      position: absolute;
+      bottom: 170px;
+      padding-left: 75px;
+      font-size: 3rem;
+      color: white;
+    }
+
+    span {
+      position: absolute;
+      bottom: 70px;
+      padding-left: 75px;
+
+      button {
+        font-size: 1.5rem;
+        padding: 20px 50px;
+        background-color: #fced70;
+        border: #ccbd5c;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .bg-img {
+    display: none;
+  }
+}

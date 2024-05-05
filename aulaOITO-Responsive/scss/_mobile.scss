@@ -1,0 +1,59 @@
+@use "../scss" as *;
+
+@include media-sm {
+  header {
+    @include flex(flex, column, null, 50px);
+    text-align: center;
+    width: 90%;
+    h3 {
+      font-size: 5rem;
+    }
+    p {
+      font-size: 3rem;
+    }
+  }
+  .four-divs {
+    @include flex(flex, row, null, null);
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 5px;
+
+    img {
+      width: 150px;
+      height: 150px;
+      position: relative;
+      right: 20px;
+      border-radius: 10px;
+    }
+    .div-right {
+      @include flex(flex, column, center, 10px);
+    }
+
+    h6 {
+      font-size: 1.5rem;
+    }
+    p {
+      padding-top: 5px;
+      font-size: 1.3rem;
+    }
+
+    .last-p {
+      color: #336ec7;
+      margin-bottom: 5px;
+    }
+  }
+  .footer-div {
+    @include flex(flex, row, center, null);
+    color: $font-cl;
+    font-size: 2rem;
+    padding-bottom: 100px;
+  }
+
+  section {
+    @include flex(flex, column, null, 0px);
+    width: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+  }
+}

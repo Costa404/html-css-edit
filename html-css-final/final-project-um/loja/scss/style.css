@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.mobile-sub-header {
+  display: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+}
+header .first-rect {
+  width: 125px;
+  height: 40px;
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+header .fa-bars {
+  display: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+}
+li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.3rem;
+  white-space: nowrap;
+}
+li a i {
+  margin-top: 5px;
+}
+
+.first-section div {
+  width: 100%;
+  height: 650px;
+  background-image: url(/html-css-final/final-project-um/loja/assets/splash-screen.webp);
+  background-size: cover;
+  position: relative;
+}
+.first-section div p {
+  position: absolute;
+  top: 0px;
+  padding: 70px 200px;
+  font-size: 2rem;
+  color: white;
+}
+.first-section div span {
+  position: absolute;
+  top: 70px;
+  padding: 50px 200px;
+}
+.first-section div span button {
+  font-size: 1.5rem;
+  padding: 20px 30px;
+  background-color: #fced70;
+  border: #ccbd5c;
+  border-radius: 5px;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.second-section div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.second-section div img {
+  width: 30.4%;
+  height: 250px;
+  margin: 0 auto;
+}
+.second-section p {
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.third-section {
+  width: 100%;
+  background-color: #f7eee3;
+  margin-top: 50px;
+}
+.third-section .third-content {
+  display: flex;
+  flex-direction: row;
+  gap: 75px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0px;
+}
+.third-section .third-content p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  font-size: 1.3rem;
+}
+
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.fourth-section div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: auto;
+}
+.fourth-section div img {
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+}
+.fourth-section p {
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.fifth-section {
+  width: 100%;
+  background-color: #f7eee3;
+  margin-top: 50px;
+  position: relative;
+}
+.fifth-section .fifth-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+.fifth-section .fifth-content p {
+  font-size: 1.8rem;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+.fifth-section .fifth-content a {
+  font-size: 1.3rem;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+.fifth-section #nomad {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 600;
+  letter-spacing: 10px;
+}
+.fifth-section img {
+  position: absolute;
+  bottom: 0;
+  height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sixth-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.sixth-section div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+.sixth-section div img {
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+}
+.sixth-section p {
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.seventh-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.seventh-section div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  margin: 0 auto;
+}
+.seventh-section div source {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.seventh-section p {
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  header li {
+    display: none;
+  }
+  header .fa-bars {
+    display: initial;
+    font-size: 2rem;
+  }
+  .mobile-sub-header {
+    display: block;
+    width: 200%;
+    height: 1000px;
+    background-image: url(/html-css-final/final-project-um/loja/assets/header.png);
+    background-size: cover;
+    background-position: 90% 0%;
+    position: relative;
+  }
+  .mobile-sub-header p {
+    position: absolute;
+    bottom: 170px;
+    padding-left: 75px;
+    font-size: 3rem;
+    color: white;
+  }
+  .mobile-sub-header span {
+    position: absolute;
+    bottom: 70px;
+    padding-left: 75px;
+  }
+  .mobile-sub-header span button {
+    font-size: 1.5rem;
+    padding: 20px 50px;
+    background-color: #fced70;
+    border: #ccbd5c;
+    border-radius: 5px;
+  }
+  .bg-img {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

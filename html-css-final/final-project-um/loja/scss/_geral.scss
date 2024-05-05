@@ -1,0 +1,229 @@
+@use "../scss/" as *;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.mobile-sub-header {
+  display: none;
+}
+
+header {
+  @include flex(flex, row, space-between, center, null);
+  padding: 30px 20px;
+
+  .first-rect {
+    @include dimensions(125px, 40px, null, null, gainsboro);
+    border-radius: 5px;
+  }
+
+  .fa-bars {
+    display: none;
+  }
+}
+li {
+  @include flex(flex, row, null, null, 55px);
+  a {
+    @include flex(flex, row, null, center, 10px);
+    font-size: 1.3rem;
+    white-space: nowrap;
+    i {
+      margin-top: 5px;
+    }
+  }
+}
+
+// ==================
+
+// first-section
+
+// ===================
+
+.first-section {
+  div {
+    @include dimensions(100%, 650px, null, null, null);
+    background-image: url(/html-css-final/final-project-um/loja/assets/splash-screen.webp);
+    background-size: cover;
+    position: relative;
+
+    p {
+      position: absolute;
+      top: 0px;
+      padding: 70px 200px;
+      font-size: 2rem;
+      color: white;
+    }
+
+    span {
+      position: absolute;
+      top: 70px;
+      padding: 50px 200px;
+
+      button {
+        font-size: 1.5rem;
+        padding: 20px 30px;
+        background-color: #fced70;
+        border: #ccbd5c;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+// ==================
+
+// second-section
+
+// ===================
+.second-section {
+  @include flex(flex, column, null, center, 50px);
+  @include dimensions(80%, null, 0 auto, null, null);
+  div {
+    @include flex(flex, row, null, null, 20px);
+    @include dimensions(100%, null, 0 auto, null, null);
+    flex-wrap: wrap;
+
+    img {
+      @include dimensions(30.4%, 250px, 0 auto, null, null);
+    }
+  }
+  p {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+}
+// ==================
+
+// third-section
+
+// ===================
+.third-section {
+  width: 100%;
+  background-color: #f7eee3;
+  margin-top: 50px;
+
+  .third-content {
+    @include flex(flex, row, null, null, 75px);
+    @include dimensions(80%, null, 0 auto, 100px 0px, null);
+
+    p {
+      @include flex(flex, row, null, center, 25px);
+      font-size: 1.3rem;
+    }
+  }
+}
+// ==================
+
+// fourth-section
+
+// ===================
+.fourth-section {
+  @include flex(flex, column, null, center, 50px);
+  @include dimensions(80%, null, 0 auto, null, null);
+  div {
+    @include flex(flex, row, null, null, 20px);
+    @include dimensions(100%, null, 0 auto, null, null);
+
+    overflow-x: auto;
+
+    img {
+      @include dimensions(100%, 350px, 0 auto, null, null);
+    }
+  }
+  p {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+}
+// ==================
+
+// fifth-section
+
+// ===================
+.fifth-section {
+  width: 100%;
+  background-color: #f7eee3;
+  margin-top: 50px;
+  position: relative;
+  .fifth-content {
+    @include flex(flex, column, null, null, 25px);
+    @include dimensions(80%, null, 0 auto, 50px 10px, null);
+
+    p {
+      font-size: 1.8rem;
+      letter-spacing: 3px;
+      line-height: 1.5;
+    }
+    a {
+      font-size: 1.3rem;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 1.5rem;
+    }
+  }
+  #nomad {
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: 10px;
+  }
+  img {
+    position: absolute;
+    bottom: 0;
+    height: 500px;
+    object-fit: contain;
+  }
+}
+// ==================
+
+// sixth-section
+
+// ===================
+.sixth-section {
+  @include flex(flex, column, null, center, 50px);
+  @include dimensions(100%, null, 0 auto, null, null);
+  div {
+    @include flex(flex, row, null, null, 20px);
+    @include dimensions(100%, null, 0 auto, null, null);
+
+    img {
+      @include dimensions(100%, 200px, 0 auto, null, null);
+    }
+  }
+  p {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+}
+// ==================
+
+// seventh-section
+
+// ===================
+.seventh-section {
+  @include flex(flex, column, null, center, 50px);
+  @include dimensions(100%, null, 0 auto, null, null);
+  div {
+    @include flex(flex, row, null, null, 20px);
+    @include dimensions(100%, null, 0 auto, null, null);
+
+    source {
+      @include dimensions(100%, auto, 0 auto, null, null);
+    }
+  }
+  p {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+}

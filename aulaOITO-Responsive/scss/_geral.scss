@@ -1,0 +1,106 @@
+@use "../scss/" as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $bg-cl;
+}
+
+a {
+  color: $font-cl;
+  text-decoration: none;
+}
+
+header {
+  @include flex(flex, column, null, 50px);
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 100px 55px;
+  color: $font-cl;
+  h3 {
+    font-size: 4.2rem;
+  }
+  p {
+    font-size: 2.7rem;
+  }
+}
+
+.main {
+  @include flex(flex, row, space-between, null);
+  gap: 75px;
+  padding-left: 20%;
+  width: 60%;
+  font-size: 1.7rem;
+
+  h6 {
+    color: $white;
+    font-size: 1.7rem;
+  }
+
+  p {
+    color: $font-cl;
+  }
+}
+
+.main-sub {
+  @include flex(flex, row, null, 50px);
+}
+
+section {
+  @include flex(flex, row, null, 20px);
+  width: 60%;
+  padding-bottom: 100px;
+  margin: 0 auto;
+}
+
+.four-divs {
+  @include flex(flex, column, center, 15px);
+  align-items: center;
+  background-color: $bg-divs;
+  width: 25%;
+  border-radius: 10px;
+  padding: 20px;
+  color: $white;
+  margin-top: 50px;
+  font-size: 2rem;
+  border: 1px solid rgb(92, 89, 89);
+
+  img {
+    width: 165px;
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  p {
+    background-color: $bg-divs;
+    padding-top: 5px;
+    font-size: 1.2rem;
+  }
+
+  .last-p {
+    background-color: $bg-divs;
+    color: #336ec7;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .footer-div {
+    display: none;
+  }
+
+  // .four-divs {
+  //   display: flex;
+  //   flex-wrap: wrap;
+  // }
+}
+@media screen and (max-width: 768px) {
+  .article {
+    display: none;
+  }
+}
