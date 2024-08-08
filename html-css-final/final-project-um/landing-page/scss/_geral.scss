@@ -14,15 +14,6 @@ button:hover {
   cursor: pointer;
 }
 
-// .sections {
-
-//   display: grid;
-//   grid-template-rows: 1fr 1fr;
-//   grid-template-areas:
-//     "first-grid"
-//     "second-grid";
-// }
-
 header {
   @include flex(flex, row, space-between, 0px);
   border-bottom: 1px solid gainsboro;
@@ -203,21 +194,6 @@ header {
     margin: 0 auto;
     position: relative;
   }
-
-  // @media screen and (min-width: 769px) {
-  //   .six-divs .rect:nth-child(6) {
-  //     position: absolute;
-  //     background-color: $blue-btn;
-  //     color: white;
-  //     right: 80px;
-  //     top: 160px;
-  //     border: none;
-
-  //     .circulo {
-  //       background-color: white;
-  //     }
-  //   }
-  // }
 
   .rect {
     @include flex(flex, column, center, 30px);

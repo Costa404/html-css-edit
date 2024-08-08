@@ -59,12 +59,6 @@
 
   // ================
 
-  //   .fourth-main {
-  //     width: 65%;
-  //     margin: 0 auto;
-  //     padding: 50px;
-  //   }
-
   .fourth-img {
     @include flex(flex, row, null, null);
     flex-wrap: wrap;
@@ -72,48 +66,7 @@
   }
   .sub-fourth {
     width: 50%;
-    // margin: 0 auto;
-    // padding-bottom: 50px;
-    // font-size: 1.2rem;
-    // img {
-    //   width: 100%;
-    //   margin: 0 auto;
-    //   border-radius: 5px;
-    // }
 
-    // .sub-fourth-content {
-    //   @include flex(flex, column, null, 15px);
-    //   width: 90%;
-    //   margin: 0 auto;
-    // }
-
-    // .eight-btn {
-    //   @include flex(flex, row, flex-start, 15px);
-    //   width: 100%;
-    //   margin: 0 auto;
-
-    //   button {
-    //     border-radius: 30px;
-    //     padding: 5px 20px;
-    //     background-color: white;
-    //     border: 1px solid gainsboro;
-    //     font-size: 1rem;
-    //   }
-
-    //   .btn-fourth-right {
-    //     background-color: $blue-btn;
-    //     color: white;
-    //     border: none;
-    //   }
-    // }
-
-    // .content-bottom-fourth {
-    //   @include flex(flex, row, flex-start, 10px);
-    //   font-size: 1rem;
-    //   p {
-    //     margin-top: 5px;
-    //   }
-    // }
     .eight-btn {
       @include flex(flex, row, flex-start, 15px);
     }
